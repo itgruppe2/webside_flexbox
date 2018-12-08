@@ -1,0 +1,108 @@
+body{
+  background-color: #17202A
+}
+
+
+.innpakning {
+  width: 800px; /* innpakningens bredde */
+  background-color: #2C3E50; /* en mørk blåfarge */
+  margin: auto; /* like stor høyre- og venstremarg */
+  display: flex; /* angir at vi vil bruke flexbox */
+  flex-direction: column; /* plasserer bokser i en kolonne */
+  border-radius: 15px;
+}
+
+
+.topp-bilde {
+ flex-basis: 100%; /* fyller innpakningens bredde */
+ height: 150px; /* overskrift-/toppteksthøyde */
+ background-color: #808B96; /* en lys gråfarge */
+ padding: 5px; /* avstand mellom bokskant og innhold */
+ margin: 5px; /* luft rundt overskrift-/topptekstboks */
+ order: 1; /* angir rekkefølgen på boksene */
+ border-radius: 15px;
+}
+
+
+.topptekst {
+ flex-basis: 100%; /* fyller innpakningens bredde */
+ height: 550px; /* overskrift-/toppteksthøyde */
+ background-color: #808B96; /* en lys gråfarge */
+ padding: 5px; /* avstand mellom bokskant og innhold */
+ margin: 5px; /* luft rundt overskrift-/topptekstboks */
+ order: 2; /* angir rekkefølgen på boksene */
+ font-family: "Century Gothic", Arial , sans-serif;
+ font-size: 22px;
+ text-align: left;
+ color: #FFFFFF; /* hvit */
+ border-radius: 15px;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #AED6F1;
+  height: 60px;
+  position: sticky;
+  top: 0;
+}
+
+.flex-container div {
+  background-color: #D0ECE7;
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.tema-bokser {
+ flex-basis: 100%; /* fyller innpakningens bredde */
+/* overskrift-/toppteksthøyde */
+ background-color: #808B96; /* en lys gråfarge */
+ padding: 5px; /* avstand mellom bokskant og innhold */
+ margin: 5px; /* luft rundt overskrift-/topptekstboks */
+ order: 3; /* angir rekkefølgen på boksene */
+ border-radius: 15px;
+}
+
+.tema-bokser ul li {
+flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #D0ECE7;
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  display: inline;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+ul {
+  list-style-type: none; /* fjerner kulepunkter */
+  margin: 0; /* fjerner alle mellomrom */
+  padding: 5px; /* fjerner alle mellomrom */
+  padding-top: 20px;
+  border-radius: 15px;
+  }
+  .flex-container ul li {
+    padding: 5px; /* fjerner alle mellomrom */
+    display: inline; /* gjør listepunktene til inline */
+    }
+  ul a {
+      padding: 10px 30px; /* avstand mellom bokskant og innhold, topp/bunn 10px og sider 30px */
+      color: #FFFFFF; /* hvit tekst */
+      font-weight: bold; /* fet tekst */
+      text-decoration: none; /* fjerner understrek */
+      background-color: #2C3E50; /* blåfarge */
+      border-radius: 5px;
+      }
+  ul a:hover {
+        background-color: #212F3D; /* mørk blå */
+      }
+img {
+  border-radius: 15px;
+}
